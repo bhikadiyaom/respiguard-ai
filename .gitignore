@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ----- RespiGuard-AI project-specific ignores -----
+# Real datasets uploaded by the developer (kept out of version control).
+data/aqi_data.csv
+data/hospital_data.csv
+data/weather_data.csv
+# Trained model artifacts.
+models/*.pkl
+# Auto-generated pipeline outputs.
+output/merged_data.csv
+output/engineered_data.csv
+.DS_Store
